@@ -1,5 +1,5 @@
 {
-  "name": "ultra-logger",
+  "name": "zero-log",
   "version": "1.0.0",
   "description": "A advanced logger",
   "type": "module",
@@ -7,7 +7,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
-    "url": "git+https://github.com/constttdev/ultra-logger.git",
+    "url": "git+https://github.com/constttdev/zero-log.git",
     "type": "git",
     "clean:win": "rmdir /s dist",
     "clean:linux": "rm -rf dist",
@@ -19,7 +19,7 @@
   },
   "keywords": [
     "logging",
-    "ultra-logger",
+    "zero-log",
     "advanced",
     "advanced-loggin",
     "logger"

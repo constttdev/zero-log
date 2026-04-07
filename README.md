@@ -1,4 +1,4 @@
-# Ultra Logger
+# Zero Log
 
 [![GNU License](https://img.shields.io/badge/license-GNU%20GPLv3-green?style=plastic)](https://choosealicense.com/licenses/gpl-3.0/)
 
@@ -9,7 +9,7 @@ Supports structured logging, correlation IDs, level control, pretty printing, er
 
 ## Try it Online
 
-Test **ultra-logger** directly in your browser using StackBlitz:
+Test **zero-log** directly in your browser using StackBlitz:
 
 [Open in StackBlitz](https://stackblitz.com/edit/node-u7xssdzz?file=index.js)
 
@@ -20,7 +20,7 @@ Test **ultra-logger** directly in your browser using StackBlitz:
 Install via npm:
 
 ```bash
-npm install ultra-logger
+npm install zero-log
 ```
 
 ---
@@ -51,7 +51,7 @@ npm install ultra-logger
 ### Create a logger
 
 ```javascript
-import { createLogger } from "ultra-logger";
+import { createLogger } from "zero-log";
 
 const logger = createLogger({
   logPrefix: true,
